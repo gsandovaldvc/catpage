@@ -1,0 +1,117 @@
+
+.grid{
+     color:  black;
+     font-family: star jedi;
+     text-align: center;
+     font-size: 50px;
+     display: grid;
+     background-color: yellow;
+	 border-radius: 5px;
+}
+
+.grid2{
+	border: 2px black solid;
+	display: grid;
+	font-family: star jedi;
+	font-size: 15px;
+	border-radius: 5px;
+	background-color: yellow;
+	text-align: center;
+} 
+
+.grid3{
+	border: 5px black solid;
+	display: grid; 
+	background-image: url("leopardprint.jpg");
+	background-size: 100%;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	grid-gap: 10px 10px;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 50% 50%;
+}
+.lionfacts{
+	font-family: star jedi;
+	font-size: 15px;
+	color: white;
+}	
+.lionback{
+	font-family: star jedi;
+    text-align: center;
+    font-size: 50px;
+	color: black;
+	filter: blur(5px);
+	height: 80px;
+}
+.lioninfo{
+	color: black;
+	border: 5px #695229 solid;
+	display: grid; 
+	width: 500px;
+	height: 300px;
+	background-color: white;
+	border: 5px #695229 solid;
+	height: 240px;
+	width: 340px;
+	border-radius: 5px;
+}
+.liontitle{
+     color:  white;
+     font-family: star jedi;
+     text-align: center;
+     font-size: 50px;
+     display: grid;
+     background-color: #695229;
+	 border-radius: 5px;
+	 width: 100%;
+}
+.liongrid{
+	border: 5px #695229 solid;
+	display: grid; 
+	width: 100%;
+	height: 600px;
+	grid-gap: 5px 5px;
+	text-align: center;
+	background-image: url("lionpic.jpg");
+	background-size: 100%;
+	grid-template-columns: 33% 33% 33%;
+	font-family: star jedi;
+	font-size: 15px;
+	color: white;
+}
+   
+img{
+	border: 5px #695229 solid;
+	height: 240px;
+	width: 340px;
+	border-radius: 5px;
+}
+
+.leopardback{
+	font-family: star jedi;
+    text-align: center;
+    font-size: 50px;
+	color: black;
+	background-color: yellow;
+	text-align: center;
+	
+}
+.leopardgrid{
+	border: 5px #695229 solid;
+	display: grid; 
+	background-image: url("leopardprint.jpg");
+	background-size: 100%;
+	text-align: center;
+	grid-template-columns: 50% 50%;
+}
+.lynxback
+{
+	font-family: star jedi;
+    text-align: center;
+    font-size: 50px;
+	color: yellow;
+	display: grid;
+	background-color: black;
+	height: 500px;
+}
